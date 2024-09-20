@@ -1,4 +1,4 @@
-name : bob1  
+name : bob
   
 on:  
   pull_request:  
